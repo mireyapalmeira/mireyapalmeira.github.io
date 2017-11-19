@@ -1,0 +1,37 @@
+$(document).ready(function(){
+    $("#line1").hover(function(){
+        $("#pic2").hide();
+        $("#pic3").hide();
+        $("#pic4").hide();
+        $("#pic5").hide();
+        $("#pic1").show();
+    });
+    $("#line2").hover(function(){
+        $("#pic1").hide();
+        $("#pic3").hide();
+        $("#pic4").hide();
+        $("#pic5").hide();
+        $("#pic2").show();
+    });
+    $("#line3").hover(function(){
+        $("#pic1").hide();
+        $("#pic2").hide();
+        $("#pic4").hide();
+        $("#pic5").hide();
+        $("#pic3").show();
+    });
+    $("#line4").hover(function(){
+        $("#pic1").hide();
+        $("#pic2").hide();
+        $("#pic3").hide();
+        $("#pic5").hide();
+        $("#pic4").show();
+    });
+    $("#line5").hover(function(){
+        $("#pic1").hide();
+        $("#pic2").hide();
+        $("#pic3").hide();
+        $("#pic4").hide();
+        $("#pic5").show();
+    });
+});
