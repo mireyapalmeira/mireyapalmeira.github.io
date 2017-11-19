@@ -130,6 +130,7 @@ p {
   background-color: tomato;
   width: 50%;
   position: absolute;
+  display: none;
 }
 .cancel {
   background-color: tomato;
@@ -138,7 +139,9 @@ p {
   position: fixed;
   width: 10px;
 }
-
+#pic1 {
+  display: flex;
+}
 #info {
   padding: 10%;
   left: 60%;
