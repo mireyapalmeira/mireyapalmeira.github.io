@@ -95,6 +95,8 @@ p {
   -moz-transition: padding 2s ease-out;
   -o-transition: padding 2s ease-out;
   transition: padding 2s ease-out;
+  text-decoration: none;
+  color: black;
 }
 .h3container:hover {
   padding-top: 5%;
