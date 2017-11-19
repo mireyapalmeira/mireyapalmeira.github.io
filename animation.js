@@ -4,6 +4,11 @@ $(document).ready(function(){
         $("#pic3").hide();
         $("#pic4").hide();
         $("#pic5").hide();
+        $("#pic6").hide();
+        $("#pic7").hide();
+        $("#pic8").hide();
+        $("#pic9").hide();
+        $("#pic10").hide();
         $("#pic1").show();
     });
     $("#line2").hover(function(){
@@ -11,6 +16,11 @@ $(document).ready(function(){
         $("#pic3").hide();
         $("#pic4").hide();
         $("#pic5").hide();
+        $("#pic6").hide();
+        $("#pic7").hide();
+        $("#pic8").hide();
+        $("#pic9").hide();
+        $("#pic10").hide();
         $("#pic2").show();
     });
     $("#line3").hover(function(){
@@ -18,6 +28,11 @@ $(document).ready(function(){
         $("#pic2").hide();
         $("#pic4").hide();
         $("#pic5").hide();
+        $("#pic6").hide();
+        $("#pic7").hide();
+        $("#pic8").hide();
+        $("#pic9").hide();
+        $("#pic10").hide();
         $("#pic3").show();
     });
     $("#line4").hover(function(){
@@ -25,6 +40,11 @@ $(document).ready(function(){
         $("#pic2").hide();
         $("#pic3").hide();
         $("#pic5").hide();
+        $("#pic6").hide();
+        $("#pic7").hide();
+        $("#pic8").hide();
+        $("#pic9").hide();
+        $("#pic10").hide();
         $("#pic4").show();
     });
     $("#line5").hover(function(){
@@ -32,6 +52,71 @@ $(document).ready(function(){
         $("#pic2").hide();
         $("#pic3").hide();
         $("#pic4").hide();
+        $("#pic6").hide();
+        $("#pic7").hide();
+        $("#pic8").hide();
+        $("#pic9").hide();
+        $("#pic10").hide();
         $("#pic5").show();
+    });
+    $("#line6").hover(function(){
+        $("#pic1").hide();
+        $("#pic2").hide();
+        $("#pic3").hide();
+        $("#pic4").hide();
+        $("#pic5").hide();
+        $("#pic7").hide();
+        $("#pic8").hide();
+        $("#pic9").hide();
+        $("#pic10").hide();
+        $("#pic6").show();
+    });
+    $("#line7").hover(function(){
+        $("#pic1").hide();
+        $("#pic2").hide();
+        $("#pic3").hide();
+        $("#pic4").hide();
+        $("#pic5").hide();
+        $("#pic6").hide();
+        $("#pic8").hide();
+        $("#pic9").hide();
+        $("#pic10").hide();
+        $("#pic7").show();
+    });
+    $("#line8").hover(function(){
+        $("#pic1").hide();
+        $("#pic2").hide();
+        $("#pic3").hide();
+        $("#pic4").hide();
+        $("#pic5").hide();
+        $("#pic6").hide();
+        $("#pic7").hide();
+        $("#pic9").hide();
+        $("#pic10").hide();
+        $("#pic8").show();
+    });
+    $("#line9").hover(function(){
+        $("#pic1").hide();
+        $("#pic2").hide();
+        $("#pic3").hide();
+        $("#pic4").hide();
+        $("#pic5").hide();
+        $("#pic6").hide();
+        $("#pic7").hide();
+        $("#pic8").hide();
+        $("#pic10").hide();
+        $("#pic9").show();
+    });
+    $("#line10").hover(function(){
+        $("#pic1").hide();
+        $("#pic2").hide();
+        $("#pic3").hide();
+        $("#pic4").hide();
+        $("#pic5").hide();
+        $("#pic6").hide();
+        $("#pic7").hide();
+        $("#pic8").hide();
+        $("#pic9").hide();
+        $("#pic10").show();
     });
 });
